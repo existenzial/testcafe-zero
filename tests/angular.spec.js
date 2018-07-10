@@ -7,3 +7,8 @@ fixture `Angular Tests`
   .beforeEach(async () => {
     await waitForAngular();
   });
+
+test('Root', async t => {
+  const rootAngular = AngularSelector();
+  await t.expect(rootAngular.getAngular(({ state }) => state.someProp)).eql(true);
+});
