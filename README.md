@@ -44,6 +44,17 @@ yarn add --dev testcafe-react-selectors
 # Vue Selectors
 yarn add --dev testcafe-vue-selectors
 ```
+## Get Started
+```bash
+# Run tests
+yarn test
+
+# Run tests in watch mode
+yarn test:watch
+
+# Run mobile tests
+yarn test:device
+```
 
 ## Pros
 - Cross-browser support (even _IE_ _+ physical mobile devices via QR code scan_)

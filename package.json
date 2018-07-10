@@ -8,7 +8,7 @@
     "lint": "eslint ./",
     "test": "yarn clean && testcafe all ./tests/**.spec.js -S -s ./tests/screenshots --env=development",
     "test:watch": "yarn clean && testcafe-live all ./tests/**.spec.js -S -s ./tests/screenshots --env=development",
-    "test-device": "yarn clean && testcafe remote ./tests/**.spec.js -S -s ./tests/screenshots --env=development --qr-code"
+    "test:device": "yarn clean && testcafe remote ./tests/**.spec.js -S -s ./tests/screenshots --env=development --qr-code"
   },
   "repository": {
     "type": "git",
