@@ -1,0 +1,22 @@
+
+# TestCafe
+*/tests/screenshots/*
+
+# Dependencies
+node_modules
+package-lock.*
+
+# Coverage
+reports
+coverage
+.nyc_output
+
+# Files
+.DS_Store
+
+# Editors
+jsconfig.json
+.vscode
+
+# Errors
+&.log
