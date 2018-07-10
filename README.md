@@ -10,8 +10,9 @@
 
 ```bash
 tests
-    |__ ** your.spec.js **
-
+|    |__ **.spec.js
+|
+testcafe.json   # Config (Optional)
 ```
 
 ## General
@@ -20,24 +21,28 @@ tests
 - **Plugins**
   - <a href="https://github.com/DevExpress/testcafe-live">TestCafe Live</a> (_add - watch mode_)
   - <a href="https://github.com/DevExpress/testcafe-react-selectors">React</a>
+  - <a href="https://github.com/DevExpress/testcafe-vue-selectors">Vue</a>
   - <a href="https://github.com/miherlosev/eslint-plugin-testcafe">ESLint</a>
   - <a href="https://github.com/helen-dikareva/axe-testcafe">Accessibility</a>
   - <a href="https://github.com/romanresh/vscode-testcafe">VSCode</a>
   - and many more...
 
-## Get Started
+## Included
 ```bash
-# Add TestCafe to Your Project
+# TestCafe
 yarn add --dev testcafe
 
-# Add Watch Mode
+# Watch Mode
 yarn add --dev testcafe-live
 
-# Add ESLint Config
+# ESLint Config
 yarn add --dev eslint-plugin-testcafe
 
-# Add React Selectors
+# React Selectors
 yarn add --dev testcafe-react-selectors
+
+# Vue Selectors
+yarn add --dev testcafe-vue-selectors
 ```
 
 ## Pros
