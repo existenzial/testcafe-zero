@@ -3,8 +3,10 @@
   <br>
   <h1>💖 Starter</h1>
   <br>
+  <a href="https://github.com/DevExpress/testcafe">
+  <img alt="Tested with TestCafe" src="https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg">
+  </a>
 </div>
-
 ---
 **TestCafe** is a `node` based **e2e** automated testing solution using a [URL-rewriting proxy](https://github.com/DevExpress/testcafe-hammerhead "More Info") designed to free you from Selenium and Web Driver restrictions once and for all.
 
