@@ -43,6 +43,9 @@ yarn add --dev testcafe-react-selectors
 
 # Vue Selectors
 yarn add --dev testcafe-vue-selectors
+
+# Angular Selectors
+yarn add --dev testcafe-angular-selectors
 ```
 ## Get Started
 ```bash
@@ -54,6 +57,9 @@ yarn test:watch
 
 # Run mobile tests
 yarn test:device
+
+# Remove all integrations & start fresh
+yarn eject
 ```
 
 ## Pros
